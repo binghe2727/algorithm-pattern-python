@@ -2,7 +2,12 @@
 
 用于处理不相交集合 (disjoint sets) 合并及查找的问题，典型应用有连通分量检测，环路检测等。原理和复杂度分析等可以参考[维基百科](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)。
 
-### [redundant-connection](https://leetcode-cn.com/problems/redundant-connection/)
+1. The basic definition: 告诉你一条边，去集合里查找这条边的两个节点分别属于哪个树。根据是否属于同一个树，做后续的判断
+2. The template: 1) essential fields: parent and ranks; 2) essential functions: find and union; 3) adapt to a specific problem when necessary
+
+
+
+### [redundant-connection](https://leetcode.com/problems/redundant-connection/)
 
 ```Python
 class Solution:

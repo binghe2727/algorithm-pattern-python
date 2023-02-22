@@ -12,7 +12,7 @@
 
 ## Stack 栈
 
-### [min-stack](https://leetcode-cn.com/problems/min-stack/)
+### [min-stack](https://leetcode.com/problems/min-stack/)
 
 > 设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈。
 
@@ -40,7 +40,7 @@ class MinStack:
         return self.stack[-1][1]
 ```
 
-### [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
+### [evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
 > **波兰表达式计算** > **输入:** ["2", "1", "+", "3", "*"] > **输出:** 9
 > **解释:** ((2 + 1) \* 3) = 9
