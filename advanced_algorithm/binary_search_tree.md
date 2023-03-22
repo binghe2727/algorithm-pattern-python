@@ -2,12 +2,13 @@
 
 ## 定义
 
+for binary search tree
 - 每个节点中的值必须大于（或等于）存储在其左侧子树中的任何值。
 - 每个节点中的值必须小于（或等于）存储在其右子树中的任何值。
 
 ## 应用
 
-### [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+### [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 > 验证二叉搜索树
 

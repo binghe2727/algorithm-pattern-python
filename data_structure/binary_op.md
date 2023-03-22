@@ -1,5 +1,8 @@
 # 二进制
 
+1. a great reference: https://realpython.com/python-bitwise-operators/
+
+
 ## 常见二进制操作
 
 ### 基本操作
@@ -28,7 +31,7 @@ diff=(n&(n-1))^n
 
 ## 常见题目
 
-### [single-number](https://leetcode-cn.com/problems/single-number/)
+### [single-number](https://leetcode.com/problems/single-number/)
 
 > 给定一个**非空**整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
 

@@ -14,3 +14,4 @@
     * an important blog: https://blog.csdn.net/fuxuemingzhu/article/details/80487064
     * one recommended book from China: https://www.zhihu.com/question/279320198
     * define your problem-solving template: yes, it is a template for each question. Be professional to create the template
+    * to read the articles in binary search

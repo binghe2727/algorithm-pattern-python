@@ -79,3 +79,8 @@ Python 的 [collections 库](https://docs.python.org/3/library/collections.html)
 ## 总结
 
 以上列举了一些用 Python3 做算法题时可以用到的一些特性，标准算法和数据结构，总结得肯定不全，因为 Python3 真的有很多可以利用的"骚操作"，大家在学习本项目的时候也会见到，一下记不住也没关系，多实战就会了。
+
+## Points later
+- logical AND: ``and'' in Python
+- bitwise AND: ``&'' in Python
+    * for pandas in Python, we can use `&` for AND on two rows; we should also use parathesis df[(row1==1) & (row2==2)]

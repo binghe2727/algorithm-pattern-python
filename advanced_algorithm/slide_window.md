@@ -1,6 +1,50 @@
-# 滑动窗口
+# 滑动窗口/Sliding Window
 
-## 模板
+## 模板/Template
+
+
+```
+# python
+# from leetcode 567, we can learn one type of template for the sliding window problem
+
+
+
+```
+
+```Python
+
+def slidingWindow(s, t):
+    need, window = {}, {}
+    for c in t:
+        if c in need:
+            need[c] += 1
+        else:
+            need[c] = 1
+
+    left, right = 0, 0
+    valid = 0
+    while right < len(s):
+        # c 是将移入窗口的字符
+        c = s[right]
+        # 右移窗口
+        right += 1
+        # 进行窗口内数据的一系列更新
+        ...
+
+        """debug 输出的位置"""
+        print(f"window: [{left}, {right})")
+        """********************/
+
+        # 判断左侧窗口是否要收缩
+        while window needs shrink:
+            # d 是将移出窗口的字符
+            d = s[left]
+            # 左移窗口
+            left += 1
+            # 进行窗口内数据的一系列更新
+            ...
+
+```
 
 ```cpp
 /* 滑动窗口算法框架 */
@@ -44,7 +88,7 @@ void slidingWindow(string s, string t) {
 
 ## 示例
 
-### [minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring/)
+### [minimum-window-substring](https://leetcode.com/problems/minimum-window-substring/)
 
 > 给你一个字符串 S、一个字符串 T，请在字符串 S 里面找出：包含 T 所有字母的最小子串
 
@@ -91,7 +135,7 @@ class Solution:
         return min_str
 ```
 
-### [permutation-in-string](https://leetcode-cn.com/problems/permutation-in-string/)
+### [permutation-in-string](https://leetcode.com/problems/permutation-in-string/)
 
 > 给定两个字符串  **s1**  和  **s2**，写一个函数来判断  **s2**  是否包含  **s1 **的排列。
 
